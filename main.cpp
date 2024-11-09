@@ -5,6 +5,8 @@
 #define tuongduoi 25
 using namespace std;
 
+void gotoxy( int column, int line );
+
 int main()
 {
     cout << "--------------- CHAO MUNG DEN VOI GAME RAN SAN MOI ---------------\n\n";
