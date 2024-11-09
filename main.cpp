@@ -1,4 +1,5 @@
 #include <iostream>
+#include <windows.h>
 #define tuongtrai 10
 #define tuongphai 70
 #define tuongtren 5
@@ -31,4 +32,12 @@ int main()
         }
         // bên dưới là phần cho các chế độ chơi
     }
+}
+
+void gotoxy( int column, int line )
+{
+  COORD coord;
+  coord.X = column;
+  coord.Y = line;
+  SetConsoleCursorPosition(GetStdHandle( STD_OUTPUT_HANDLE ), coord);
 }
