@@ -44,16 +44,6 @@ public:
         cout<<" ";
     }
 
-    bool Game_Over2()
-    {
-    for( int i=1; i < DoDai ; i++)
-    {
-        if(( A[0].x== A[i].x)&& (A[0].y == A[i].y))
-            return true;
-    }
-    return false;
-
-    }
     bool Game_Over1()
     {   if(A[0].x==tuongtrai ||A[0].x== tuongphai ||A[0].y==tuongtren ||A[0].y==tuongduoi)
         {return true;}
