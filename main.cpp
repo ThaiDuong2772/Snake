@@ -13,9 +13,9 @@ int main()
         // chọn chế độ chơi
         int chedo;
         cout << "****** Hay nhap che do ban muon choi ******\n\n";
-        cout << "-Nhap 1 de mo che do choi co dien" << endl;
-        cout << "-Nhap 2 de mo che do choi tu do" << endl;
-        cout << "-Nhap 3 de thoat khoi tro choi\n" << endl;
+        cout << "- Nhap 1 de mo che do choi co dien" << endl;
+        cout << "- Nhap 2 de mo che do choi tu do" << endl;
+        cout << "- Nhap 3 de thoat khoi tro choi\n" << endl;
         cin >> chedo;
         while(chedo != 1 && chedo != 2 && chedo != 3)
         {
